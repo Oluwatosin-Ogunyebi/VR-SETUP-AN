@@ -1,0 +1,110 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "b19d1486-279e-469b-ba31-353443a1d910",
+            "actions": [
+                {
+                    "name": "WalkBackwards",
+                    "type": "Value",
+                    "id": "09193f7d-8bcf-45d0-b1e1-4749b071c925",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "WalkForward",
+                    "type": "Button",
+                    "id": "06168cdf-26a3-4fed-b685-14908d8b5d86",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6147f970-a263-4b1e-ad4d-b7c4c9798e17",
+                    "path": "*/{Primary2DMotion}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WalkBackwards",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98b26640-f336-41d1-9de6-11c43fbd4931",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WalkForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Driving",
+            "id": "ca2f3d9d-1921-4096-813c-40d1d24c8afa",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d7673191-4d95-48bc-ab01-dfdaf19a409a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "111c5cb9-2c5b-4963-9823-f3714f1644d4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Shooting",
+            "id": "e8fde56a-f483-42d6-8475-57941a7d00d7",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "faef96fd-2343-4c3b-8d1a-d616fe55c2d3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7c049cba-1c4b-451c-b588-def4e542ea0e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
